@@ -1,11 +1,13 @@
 {
-  "_HUONGDAN": "DANH SACH MAY DUOC PHEP CHAY MARIE. Sua file nay ngay tren web GitHub la cat/mo duoc tung may, khong can lam gi tren may nhan vien. Trong ~30 phut may do se tu khoa.",
-  "_CACHDUNG": "Them 1 dong vao muc 'may': \"MA-MAY\": { \"ten\": \"biet danh\", \"cho\": true }.  Muon CAT ai thi doi cho: false va ghi ly do vao ghiChu.",
-  "_LUUY": "Kho nay CONG KHAI nen chi dat BIET DANH (May Hang, May quay 2). DUNG ghi ho ten day du hay so dien thoai nhan vien vao day.",
+  "_HUONGDAN": "DANH SACH MAY DUOC PHEP CHAY MARIE. Sua file nay la cat/mo duoc tung may. May bi cat se khoa trong vong 30 phut, hoac ngay lap tuc neu nhan vien bam nut 'Da nhan roi - Kiem tra lai' tren bang do.",
+  "_CACHDUNG": "Them may moi: chep nguyen 1 dong trong muc 'may', doi ma va ten. Muon CAT ai: doi cho: true thanh cho: false va ghi ly do vao ghiChu.",
+  "_MACDINH": "macDinh 'cho' = may la van chay duoc (dung khi dang trien khai, chua thu du ma). macDinh 'cam' = may nao KHONG co trong danh sach thi khoa (dung khi da thu du ma cua moi may).",
+  "_LUUY": "Kho nay CONG KHAI. Chi dat BIET DANH (May Hang, May quay 2). DUNG ghi ho ten day du hay so dien thoai nhan vien.",
+  "_CO_CHU": "chu: true = may cua chu, duoc xem muc 'May dang dung Marie' trong panel. Chi dat cho MAY CUA ANH.",
 
-  "macDinh": "cam",
+  "macDinh": "cho",
 
   "may": {
-    "MB-YWPV": { "ten": "May cua anh (may chu)", "cho": true }
+    "MB-YWPV": { "ten": "May cua anh (may chu)", "cho": true, "chu": true }
   }
 }
