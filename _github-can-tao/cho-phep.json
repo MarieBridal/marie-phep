@@ -1,0 +1,11 @@
+{
+  "_HUONGDAN": "DANH SACH MAY DUOC PHEP CHAY MARIE. Sua file nay ngay tren web GitHub la cat/mo duoc tung may, khong can lam gi tren may nhan vien. Trong ~30 phut may do se tu khoa.",
+  "_CACHDUNG": "Them 1 dong vao muc 'may': \"MA-MAY\": { \"ten\": \"biet danh\", \"cho\": true }.  Muon CAT ai thi doi cho: false va ghi ly do vao ghiChu.",
+  "_LUUY": "Kho nay CONG KHAI nen chi dat BIET DANH (May Hang, May quay 2). DUNG ghi ho ten day du hay so dien thoai nhan vien vao day.",
+
+  "macDinh": "cam",
+
+  "may": {
+    "MB-YWPV": { "ten": "May cua anh (may chu)", "cho": true }
+  }
+}
