@@ -4,10 +4,15 @@
   "_MACDINH": "macDinh 'cho' = may la van chay duoc (dung khi dang trien khai, chua thu du ma). macDinh 'cam' = may nao KHONG co trong danh sach thi khoa (dung khi da thu du ma cua moi may).",
   "_LUUY": "Kho nay CONG KHAI. Chi dat BIET DANH (May Hang, May quay 2). DUNG ghi ho ten day du hay so dien thoai nhan vien.",
   "_CO_CHU": "chu: true = may cua chu, duoc xem muc 'May dang dung Marie' trong panel. Chi dat cho MAY CUA ANH.",
-
   "macDinh": "cho",
-
   "may": {
-    "MB-YWPV": { "ten": "May cua anh (may chu)", "cho": true, "chu": true }
+    "MB-YWPV": {
+      "ten": "May cua anh (may chu)",
+      "cho": true,
+      "chu": true
+    },
+    "MB-RJ9B": {
+      "cho": true
+    }
   }
 }
