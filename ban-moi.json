@@ -2,7 +2,7 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.49.0 · bridge 97",
+  "_DANGTHU": "da phat hanh: panel 3.49.0 · bridge 98",
   "panelBase": "MarieUXP/",
   "panel": {
     "version": "3.49.0",
@@ -20,8 +20,8 @@
   },
   "bridgeBase": "marie-bridge/",
   "bridge": {
-    "version": 97,
-    "note": "Sửa lỗi Bridge tự tắt hẳn (“Bridge TẮT”) sau vài lần cập nhật hoặc khởi động lại: biểu tượng Marie ở khay nay luôn tự bật lại Bridge. Có hiệu lực từ lần tắt máy mở lại kế tiếp.",
+    "version": 98,
+    "note": "Cập nhật xong là biểu tượng Marie ở khay tự làm mới ngay, không phải chờ tắt máy mở lại: bản sửa lỗi “Bridge TẮT” có hiệu lực luôn. Bridge vẫn chạy, việc đang làm không bị cắt.",
     "_LUUY_FILES": "⚠️ THEM FILE MOI CHO BRIDGE THI PHAI THEM VAO DAY — ke ca file KHONG PHAI .js. Nut 'Cap nhat' CHI TAI DUNG nhung file liet ke o day roi chep de. Thieu 1 file ma server.js co require('./file-do.js') = may nhan vien cap nhat xong Bridge CHET HAN (Cannot find module), va vi /update nam TRONG bridge da chet nen KHONG the day ban va xuong nua — phai den tan may cai tay. Chay 'node update/phat-hanh.cjs' se tu soat va chan neu thieu. ⚠️ Bo soat TU DONG chi lan theo require() cua file .js — file .ps1/.bat/.vbs NO KHONG BIET, phai tu nho. Da dinh that 09-08-2026: va xong marie-tray.ps1 moi nhan ra no khong he co trong danh sach, tuc ban va se khong bao gio toi tay nhan vien.",
     "files": [
       "server.js",
