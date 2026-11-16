@@ -2,12 +2,12 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.51.0 · bridge 99",
+  "_DANGTHU": "da phat hanh: panel 3.52.0 · bridge 99",
   "panelBase": "MarieUXP/",
   "panel": {
-    "version": "3.51.0",
+    "version": "3.52.0",
     "_LUUY_NOTE": "⚠️ SUA DONG note NAY BANG TAY MOI LAN PHAT HANH, VA PHAI VIET TIENG VIET CO DAU. phat-hanh.cjs KHONG tu doi no. Day la dong DUY NHAT bang giong cua chu hien len thanh vang tren may nhan vien. Chu bat loi that 08-08-2026: viet khong dau (\"Nut da chon gio NHIN RO\") -> chu che \"van con chu tieng viet thieu dau\". Chu thich TRONG CODE thi khong dau duoc (cmd.exe/ANSI), nhung chu HIEN RA MAN HINH thi BAT BUOC co dau.",
-    "note": "Làm da tự dò vùng: khỏi khoanh nữa — bấm «Tự dò vùng da & làm mịn» (hoặc bấm thẻ Làm da khi chưa khoanh) là Marie tự tìm da Mặt · Cổ – vai · Tay · Chân của từng người rồi làm mịn, mỗi vùng một lớp riêng để tắt hoặc kéo mờ. Chạy ngay trên máy, không tốn lượt AI.",
+    "note": "Nút Marie giờ chỉ thay kết quả CÙNG LOẠI: đổi look thì thay look cũ, làm da lại thì thay lần trước; còn làm da rồi áp look thì giữ cả hai (trước đây mất phần làm da). Sửa lỗi khoanh vùng rồi bấm Răng trắng / Mắt sáng / Làm da / Quần áo / Vest / Váy bị áp ra cả ảnh — nay chỉ đúng vùng khoanh.",
     "_LUUY_THUTU": "⚠️ manifest.json PHAI dung CUOI danh sach. No chua SO PHIEN BAN — chep no truoc la dong dau 'da len ban moi' TRUOC khi code kip chep xong; chep de hong giua chung thi lan sau hasNew=false, nhan vien KHONG bam lai de tu sua duoc, phai cai lai .ccx. De cuoi thi hong giua chung = so phien ban van la so CU = den bao con sang = bam lai duoc.",
     "files": [
       "index.html",
