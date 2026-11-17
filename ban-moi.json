@@ -2,12 +2,12 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.59.0 · bridge 105",
+  "_DANGTHU": "da phat hanh: panel 3.60.0 · bridge 105",
   "panelBase": "MarieUXP/",
   "panel": {
-    "version": "3.59.0",
+    "version": "3.60.0",
     "_LUUY_NOTE": "⚠️ SUA DONG note NAY BANG TAY MOI LAN PHAT HANH, VA PHAI VIET TIENG VIET CO DAU. phat-hanh.cjs KHONG tu doi no. Day la dong DUY NHAT bang giong cua chu hien len thanh vang tren may nhan vien. Chu bat loi that 08-08-2026: viet khong dau (\"Nut da chon gio NHIN RO\") -> chu che \"van con chu tieng viet thieu dau\". Chu thich TRONG CODE thi khong dau duoc (cmd.exe/ANSI), nhung chu HIEN RA MAN HINH thi BAT BUOC co dau.",
-    "note": "Kho lệnh dựng sẵn nay là TIẾNG VIỆT, ngắn gọn: 227 lệnh (kiểu tóc, màu tóc, trang điểm, dáng váy, voan, phụ kiện, phông, ánh sáng, thời tiết, kỷ yếu, chữ) đọc là hiểu, sửa được ngay trong ô soạn. Sửa kèm: «Nhìn về máy ảnh», «Tăng / giảm tuổi», «Bỏ tròng kính» và các kiểu tóc mái không còn bị dán lại mặt cũ đè lên; «Thon gọn nhẹ» giữ nền gốc nên tường không bị cong.",
+    "note": "Retouch theo kịp Pixelius: thẻ «Là phẳng» xoá nếp nhăn vest, áo, váy trơn NGAY TRÊN MÁY trong vùng khoanh (khoảng 1 giây, không tốn lượt AI) — giữ dáng váy, đường may, nắp túi; váy có hoa đính thì khoanh tránh hoa. Chọn độ mờ lớp kết quả 100 / 80 / 60 / 40% trước khi chạy. Làm da tự dò chạy được cả thư mục, lưu JPG vào thư mục con «Marie-Lam-Da».",
     "_LUUY_THUTU": "⚠️ manifest.json PHAI dung CUOI danh sach. No chua SO PHIEN BAN — chep no truoc la dong dau 'da len ban moi' TRUOC khi code kip chep xong; chep de hong giua chung thi lan sau hasNew=false, nhan vien KHONG bam lai de tu sua duoc, phai cai lai .ccx. De cuoi thi hong giua chung = so phien ban van la so CU = den bao con sang = bam lai duoc.",
     "files": [
       "index.html",
