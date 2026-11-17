@@ -2,12 +2,12 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.54.0 · bridge 103",
+  "_DANGTHU": "da phat hanh: panel 3.55.0 · bridge 103",
   "panelBase": "MarieUXP/",
   "panel": {
-    "version": "3.54.0",
+    "version": "3.55.0",
     "_LUUY_NOTE": "⚠️ SUA DONG note NAY BANG TAY MOI LAN PHAT HANH, VA PHAI VIET TIENG VIET CO DAU. phat-hanh.cjs KHONG tu doi no. Day la dong DUY NHAT bang giong cua chu hien len thanh vang tren may nhan vien. Chu bat loi that 08-08-2026: viet khong dau (\"Nut da chon gio NHIN RO\") -> chu che \"van con chu tieng viet thieu dau\". Chu thich TRONG CODE thi khong dau duoc (cmd.exe/ANSI), nhung chu HIEN RA MAN HINH thi BAT BUOC co dau.",
-    "note": "Ảnh ngoài trời (cỏ, lá cây, trời): ChatGPT hay vẽ lại cả nền làm lá cây nhão như nhựa. Nay lệnh sửa NGƯỜI (váy, vest, cà vạt, bó hoa, răng, da, tóc, trang điểm…) thì Marie trả lại NỀN GỐC nguyên vẹn, chỉ giữ phần AI sửa trên người. Lệnh đổi nền hay sửa cả ảnh vẫn như cũ. Cần Bridge 103.",
+    "note": "Kho lệnh lên 228 lệnh, 15 nhóm: 41 kiểu tóc, 10 màu tóc, 19 kiểu trang điểm, 14 dáng váy, voan · phụ kiện · bó hoa, ánh sáng · flash, thời tiết, 12 phông nền, kỷ yếu, chữ thiết kế (Save the Date…), đổi mặt từ ảnh khác (khoanh mặt + ảnh mẫu). Mới ở tab Album: In ấn — cắt cả thư mục theo khổ in 10×15 → 50×75 cm, tự tìm người, không cụt đầu.",
     "_LUUY_THUTU": "⚠️ manifest.json PHAI dung CUOI danh sach. No chua SO PHIEN BAN — chep no truoc la dong dau 'da len ban moi' TRUOC khi code kip chep xong; chep de hong giua chung thi lan sau hasNew=false, nhan vien KHONG bam lai de tu sua duoc, phai cai lai .ccx. De cuoi thi hong giua chung = so phien ban van la so CU = den bao con sang = bam lai duoc.",
     "files": [
       "index.html",
