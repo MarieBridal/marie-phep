@@ -2,12 +2,12 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.56.0 · bridge 104",
+  "_DANGTHU": "da phat hanh: panel 3.57.0 · bridge 105",
   "panelBase": "MarieUXP/",
   "panel": {
-    "version": "3.56.0",
+    "version": "3.57.0",
     "_LUUY_NOTE": "⚠️ SUA DONG note NAY BANG TAY MOI LAN PHAT HANH, VA PHAI VIET TIENG VIET CO DAU. phat-hanh.cjs KHONG tu doi no. Day la dong DUY NHAT bang giong cua chu hien len thanh vang tren may nhan vien. Chu bat loi that 08-08-2026: viet khong dau (\"Nut da chon gio NHIN RO\") -> chu che \"van con chu tieng viet thieu dau\". Chu thich TRONG CODE thi khong dau duoc (cmd.exe/ANSI), nhung chu HIEN RA MAN HINH thi BAT BUOC co dau.",
-    "note": "Câu lệnh gửi AI gọn lại: câu giữ mặt – tư thế – khung hình chỉ gửi MỘT lần (trước bị gửi lặp hai lần mỗi lượt bấm nút kho lệnh), lệnh có sửa mặt / trang điểm không còn kèm câu bảo giữ nguyên khuôn mặt. Giữ mặt thật hết tự tắt oan ở búi thấp, vấn tóc áo dài, bồng đỉnh, váy satin trơn, là phẳng váy, phẳng vest, xoá phông bokeh, màu điện ảnh. Cần Bridge 104.",
+    "note": "Phóng nét lên 54 MP và 96 MP để in khổ lớn (50×75 → 66×100 cm): chọn bao nhiêu MP ra đúng bấy nhiêu (trước đây chọn 12 MP có khi ra tới 96 MP). AI phóng từ ảnh gần gốc rồi thu về nên giữ được lỗ chân lông, sợi tóc thật. Chạy cả thư mục cũng ra đúng cỡ; ảnh nào đã to hơn cỡ chọn thì giữ nguyên. Cần Bridge 105.",
     "_LUUY_THUTU": "⚠️ manifest.json PHAI dung CUOI danh sach. No chua SO PHIEN BAN — chep no truoc la dong dau 'da len ban moi' TRUOC khi code kip chep xong; chep de hong giua chung thi lan sau hasNew=false, nhan vien KHONG bam lai de tu sua duoc, phai cai lai .ccx. De cuoi thi hong giua chung = so phien ban van la so CU = den bao con sang = bam lai duoc.",
     "files": [
       "index.html",
@@ -20,8 +20,8 @@
   },
   "bridgeBase": "marie-bridge/",
   "bridge": {
-    "version": 104,
-    "note": "Bấm Cập nhật lần này là lần cuối: từ bản này Marie tự cập nhật lúc máy rảnh (không có việc nào đang chạy và không ai bấm gì trong 10 phút). Mới: lệnh có ảnh mẫu (đổi mặt, tóc / váy theo ảnh mẫu…) không còn bị kèm câu bắt chép màu – ánh sáng của ảnh mẫu, và AI không phải tả hai ảnh trước khi vẽ — đổi mặt hết lây phông của ảnh mẫu.",
+    "version": 105,
+    "note": "Bấm Cập nhật lần này là lần cuối: từ bản này Marie tự cập nhật lúc máy rảnh (không có việc nào đang chạy và không ai bấm gì trong 10 phút). Mới: phóng nét ảnh to đi qua file nên phóng được tới 96 MP (ảnh 33 MP lên 96 MP khoảng 40 giây); ảnh nhỏ chỉ phóng một lượt nên nhanh hơn.",
     "_LUUY_FILES": "⚠️ THEM FILE MOI CHO BRIDGE THI PHAI THEM VAO DAY — ke ca file KHONG PHAI .js. Nut 'Cap nhat' CHI TAI DUNG nhung file liet ke o day roi chep de. Thieu 1 file ma server.js co require('./file-do.js') = may nhan vien cap nhat xong Bridge CHET HAN (Cannot find module), va vi /update nam TRONG bridge da chet nen KHONG the day ban va xuong nua — phai den tan may cai tay. Chay 'node update/phat-hanh.cjs' se tu soat va chan neu thieu. ⚠️ Bo soat TU DONG chi lan theo require() cua file .js — file .ps1/.bat/.vbs NO KHONG BIET, phai tu nho. Da dinh that 09-08-2026: va xong marie-tray.ps1 moi nhan ra no khong he co trong danh sach, tuc ban va se khong bao gio toi tay nhan vien.",
     "files": [
       "server.js",
