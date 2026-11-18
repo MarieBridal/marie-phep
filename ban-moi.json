@@ -2,7 +2,7 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.64.0 · bridge 106",
+  "_DANGTHU": "da phat hanh: panel 3.64.0 · bridge 107",
   "panelBase": "MarieUXP/",
   "panel": {
     "version": "3.64.0",
@@ -21,8 +21,8 @@
   },
   "bridgeBase": "marie-bridge/",
   "bridge": {
-    "version": 106,
-    "note": "Bridge 106: tải cả thư mục từ link Google Drive / link chia sẻ NAS Synology cho tab Lab (đang thử) — chỉ ghi ảnh / video, không ghi đè file đã có.",
+    "version": 107,
+    "note": "Bridge 107: Gen Free hết báo «Không đính được ảnh» khi trang ChatGPT tải chậm — Bridge chờ trang sẵn sàng (tối đa 60 giây) rồi mới đính ảnh, và ghi rõ trang đang hiện gì vào nhật ký.",
     "_LUUY_FILES": "⚠️ THEM FILE MOI CHO BRIDGE THI PHAI THEM VAO DAY — ke ca file KHONG PHAI .js. Nut 'Cap nhat' CHI TAI DUNG nhung file liet ke o day roi chep de. Thieu 1 file ma server.js co require('./file-do.js') = may nhan vien cap nhat xong Bridge CHET HAN (Cannot find module), va vi /update nam TRONG bridge da chet nen KHONG the day ban va xuong nua — phai den tan may cai tay. Chay 'node update/phat-hanh.cjs' se tu soat va chan neu thieu. ⚠️ Bo soat TU DONG chi lan theo require() cua file .js — file .ps1/.bat/.vbs NO KHONG BIET, phai tu nho. Da dinh that 09-08-2026: va xong marie-tray.ps1 moi nhan ra no khong he co trong danh sach, tuc ban va se khong bao gio toi tay nhan vien.",
     "files": [
       "server.js",
