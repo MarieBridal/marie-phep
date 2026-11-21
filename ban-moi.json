@@ -2,12 +2,12 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.72.0 · bridge 107",
+  "_DANGTHU": "da phat hanh: panel 3.73.0 · bridge 107",
   "panelBase": "MarieUXP/",
   "panel": {
-    "version": "3.72.0",
+    "version": "3.73.0",
     "_LUUY_NOTE": "⚠️ SUA DONG note NAY BANG TAY MOI LAN PHAT HANH, VA PHAI VIET TIENG VIET CO DAU. phat-hanh.cjs KHONG tu doi no. Day la dong DUY NHAT bang giong cua chu hien len thanh vang tren may nhan vien. Chu bat loi that 08-08-2026: viet khong dau (\"Nut da chon gio NHIN RO\") -> chu che \"van con chu tieng viet thieu dau\". Chu thich TRONG CODE thi khong dau duoc (cmd.exe/ANSI), nhung chu HIEN RA MAN HINH thi BAT BUOC co dau.",
-    "note": "Nhóm mới «Cỏ xanh» 9 nút: sửa cỏ (Cỏ Nhật mềm mượt, Xanh lại cỏ, Lấp chỗ cỏ trụi, Cỏ tự nhiên chi tiết, Cỏ theo ảnh mẫu) và đưa ảnh studio ra ngoài trời (Đồng cỏ xanh, Thảo nguyên cỏ, Cỏ cao ngang gối, Cỏ và hồ). Nút «Đổi nền theo ảnh mẫu» (bật Thêm ảnh tham chiếu, gắn ảnh cảnh muốn ghép). Nhóm Nắng · Trời thêm «Ngược nắng», «Nắng theo ảnh mẫu». Sửa lỗi gõ lệnh ngắn: «làm ảnh sáng nhất có thể» không còn bị đổi thành nút Ảnh thẻ, «tóc đẹp nhất có thể» không còn ra tóc kiểu Nhật.",
+    "note": "Cắt ảnh lớn (tab Lab → In ấn): bấm «Xem & chỉnh khung» để xem trước khung cắt của cả thư mục — kéo chuột trong ảnh để dời khung ảnh nào lệch, bấm ảnh để chọn (chọn được nhiều ảnh) rồi bấm khổ để đổi cỡ riêng các ảnh đó (ảnh cổng, ảnh bàn, ảnh treo tường…), mỗi ảnh báo DPI theo cỡ của nó. Bấm «Cắt theo khung» là cắt đúng khung đã xem, mỗi cỡ một thư mục con. Không bấm xem thì cắt tự động như cũ.",
     "_LUUY_THUTU": "⚠️ manifest.json PHAI dung CUOI danh sach. No chua SO PHIEN BAN — chep no truoc la dong dau 'da len ban moi' TRUOC khi code kip chep xong; chep de hong giua chung thi lan sau hasNew=false, nhan vien KHONG bam lai de tu sua duoc, phai cai lai .ccx. De cuoi thi hong giua chung = so phien ban van la so CU = den bao con sang = bam lai duoc.",
     "files": [
       "index.html",
