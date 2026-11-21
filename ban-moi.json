@@ -2,12 +2,12 @@
   "_QUYTRINH": "⚠️ FILE NAY = DEN BAO CHO TOAN BO MAY NHAN VIEN. Tang so 'version' o day roi push = trong 30 phut MOI MAY hien thanh vang doi cap nhat. => CHI TANG SO SAU KHI CHU DA TEST TREN MAY CHU VA GAT DAU. Code cu push len GitHub thoai mai — nhan vien khong doc code, chi doc file nay.",
   "_CACHTEST": "Chep thang file vao %APPDATA%\\Adobe\\UXP\\Plugins\\External\\com.marie.bridal.uxp*\\ roi DONG PHOTOSHOP MO LAI. KHONG dung nut Cap nhat, KHONG tang so o day.",
   "_PHATHANH": "Chu gat dau roi thi chay:  node update/phat-hanh.cjs  (tu lay so tu MarieUXP/manifest.json + BRIDGE_VER trong server.js) roi git push.",
-  "_DANGTHU": "da phat hanh: panel 3.74.0 · bridge 107",
+  "_DANGTHU": "da phat hanh: panel 3.75.0 · bridge 107",
   "panelBase": "MarieUXP/",
   "panel": {
-    "version": "3.74.0",
+    "version": "3.75.0",
     "_LUUY_NOTE": "⚠️ SUA DONG note NAY BANG TAY MOI LAN PHAT HANH, VA PHAI VIET TIENG VIET CO DAU. phat-hanh.cjs KHONG tu doi no. Day la dong DUY NHAT bang giong cua chu hien len thanh vang tren may nhan vien. Chu bat loi that 08-08-2026: viet khong dau (\"Nut da chon gio NHIN RO\") -> chu che \"van con chu tieng viet thieu dau\". Chu thich TRONG CODE thi khong dau duoc (cmd.exe/ANSI), nhung chu HIEN RA MAN HINH thi BAT BUOC co dau.",
-    "note": "Ghép nhiều cỡ lên cuộn (tab Lab → Ghép in → chip «Nhiều cỡ»): chọn thư mục đã cắt bằng «Cắt ảnh lớn» — Marie tự đọc cỡ từng ảnh (cả poster làm sẵn đúng cỡ), xếp chung lên một cuộn tốn ít giấy nhất, có dấu cắt cho dao xén và tên file kèm cỡ in; báo trước số tờ, mét giấy, số nhát cắt, so với ghép riêng từng cỡ, gợi ý khổ cuộn, có hình xem trước. «Cắt ảnh lớn» thêm khổ 60×90 (ảnh cổng).",
+    "note": "Marie hiểu lệnh gõ KHÔNG DẤU chính xác hơn: «xoa mun», «trang diem dam», «cuoi tuoi hon»… không còn bị dán mặt gốc đè mất phần AI vừa sửa; «doi canh da lat» không bị trả nền cũ. Lệnh gõ tắt có thêm ý riêng (vd «trang điểm đậm hơn», «đổi sang áo cổ trang») nay gửi đúng câu bạn gõ, không tự đổi sang nút mẫu ngược ý; gõ đúng tên nút thì vẫn dùng nút mẫu như cũ. Nút Phục chế không còn dán mặt gốc trầy xước đè lên ảnh đã phục chế.",
     "_LUUY_THUTU": "⚠️ manifest.json PHAI dung CUOI danh sach. No chua SO PHIEN BAN — chep no truoc la dong dau 'da len ban moi' TRUOC khi code kip chep xong; chep de hong giua chung thi lan sau hasNew=false, nhan vien KHONG bam lai de tu sua duoc, phai cai lai .ccx. De cuoi thi hong giua chung = so phien ban van la so CU = den bao con sang = bam lai duoc.",
     "files": [
       "index.html",
